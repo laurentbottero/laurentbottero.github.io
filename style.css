@@ -1,37 +1,43 @@
+/*--------------- Mise en forme & style ---------------*/
 body{
-    width: 900px;
+    /*width: 900px;*/
     font-family: arial, serif, sans-serif;
     border: 1px solid #404040;
     margin: auto;
-    max-width: 900 px;
+    max-width: 900px;
 }
-/*.conteneur{
-    display: flex;
-    flex-direction: row;
-    width: 1000px;
-    margin: auto;
-    background-color: darkseagreen;
-}*/
-/*
-#menu{
-    width: 10%;
-}*/
-/*nav{
-    position: relative;
-    font-size:0.8em;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    padding: 0px 0px 0px 10px;
-}*/
+
+p{
+    color:#404040;
+    font-size: 0.9em;
+    text-align: justify;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+h4{
+    font-weight: normal;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+h5{
+    font-size: 85%;
+    font-weight: bold;
+    margin: 2px 0px 2px 0px;
+    padding: 2px;
+}
+
+h6{
+    font-size: 85%;
+    font-weight: normal;
+    margin: 2px 0px 2px 0px;
+    padding: 2px;
+}
 header{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    /*background-color: darkgrey;*/
-    /*justify-content: center;
-    align-items: center;*/
-    /*box-sizing: content-box;*/
 }
 
 #photo{
@@ -39,13 +45,8 @@ header{
     justify-content: center;
     background-color: #feca07;
     padding: 5% 0 5% 0;
-    /*display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: flex-end;
-    background-color: #feca07;
-    height: 20vh;*/
 }
+
 #image{
     width: 200px;
     height: 200px;
@@ -53,56 +54,41 @@ header{
     border: 2.5px solid #feb007d3;
     overflow: hidden;
     margin: auto;
-    /*    width: 150px;
-    height: 150px;
-    border-radius: 80px;
-    border-style: solid;
-    border-color: #feb007d3;
-    border-width: 0.3em;*/
 }
-/*.roundedImage{
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:50px;
-    width:100px;
-    height:100px;
-}*/
+
 #photosize{
     width: 205px;
 }
+
 #titre{
     width: 65%;
     line-height: 110%;
-
 }
+
 #titre > h1{
-    font-size: 200%;
+    font-size: 190%;
     padding: 15% 0 0 5%;
     font-weight: lighter;
 }
-/*h1{
-    font-weight: normal;
-    font-size: 1.7em;
-    margin: 50px 10px 0px 25px;
-    padding: 5px;
-    color:#404040;
-}*/
+
 #prenom{
     color:#feca07;
-    font-weight: bold;
     font-size: 1.7em;
+    font-weight: bold;
 }
+
 #nom{
     font-weight: normal;
     font-size: 1.7em;
     color:#404040;
 }
+
 #titre > h3{
     font-size: 200%;
     padding: 0 0 0 0;
     font-weight: lighter;
 }
+
 #metier{
     font-weight: normal;
     margin: 0px 10px 15px 30px;
@@ -110,28 +96,15 @@ header{
     letter-spacing: 0.5px;
     color:#404040;
 }
+
+#underline{
+    border-bottom: 1px solid #feca07;
+}
+
 main{
     display: flex;
     flex-direction: row;
 }
-
-p{
-    color:#404040;
-    font-size: 0.7em;
-    text-align: justify;
-    font-style: normal;
-    line-height: 1.2;
-}
-/*#screenleft{
-    display: flex;
-    width:15%;
-    height: 100%;
-}*/
-/*#screenright{
-    display: flex;
-    width:15%;
-    height: 100%;
-}*/
 
 #leftsection {
     display: flex;
@@ -139,15 +112,7 @@ p{
     flex-direction: column;
     background-color: #feca07;
 }
-#rightsection{
-    display: flex;
-    width: 65%;
-    flex-direction: column;
-}
 
-/*.leftelement{
-    background-color: #feca07;
-}*/
 .leftelement > h2{
     background-color: #404040;
     color: #feca07;
@@ -157,118 +122,141 @@ p{
     height: 26px;
     padding-top: 10px;
 }
-address{
-    color:#404040;
-    /*margin: 10px 20px 0px 20px;*/
-    padding: 5px; 
-    font-style: normal;
-    padding: 10% 15% 15% 15%;
-    line-height: 1.2;
 
-}
 #contact{
     background-color: #feca07;
 }
-#aboutme{
-    background-color: #feca07;
-    padding: 10% 15% 100% 15%;
-    line-height: 1.5;
-    text-align: justify;
+
+address{
+    color:#404040;
+    padding: 5px; 
+    font-style: normal;
+    padding: 10% 15% 35% 15%;
+    line-height: 1.2;
 }
-#loisirs{
-    background-color: #feca07;
-}
+
 .contenurubrique{
     background-color: #feca07;
     color:#404040;
 }
-.contenuloisirs{
+
+#aboutme{
+    background-color: #feca07;
+    padding: 10% 15% 80% 15%;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#loisirs{
+    background-color: #feca07;
+}
+
+#contenuloisirs{
     background-color: #feca07;
     color:#404040;
     display:flex;
     justify-content: space-around;
-    margin: 10px 20px 0px 20px;
+    margin: 10px 20px 5px 20px;
     padding: 5px;    
 }
-.iconeloisir{
-    color: #feca07;
-    margin: 0px 25px 0px 0px;
 
+#rightsection{
+    display: flex;
+    width: 65%;
+    flex-direction: column;
 }
+
 .titresection{
     margin: 10px 0px 10px 20px;
 }
+
+#titrecourt{
+    display: none;
+}
+
 h2 i{
     color: #feca07;
     margin: 0px 25px 0px 0px;
 }
-#underline{
-    border-bottom: 1px solid #feca07;
-}
+
 .sectioncv{
     display: flex;
     flex-direction: row;
     margin: 0px 0px 5px 20px;
     padding: 0px 10px 0px 5px;
 }
+
+.sectioncv > h4 {
+    font-size: 1.1em;
+}
+
 .date{
     flex: 1;
     display:flex;
     flex-direction:row;
-    font-size:0.8em;
+    font-size:0.85em;
     margin: 0px;
     padding: 0px;
 }
+
 .icone{
     color: #feca07;
     width:20px;
     margin: 5px 0px 0px 0px;
     padding: 0px;
 }
-.subdate{
+
+.date h4 {
+    font-size: 1em;
     margin: 0px;
-    padding: 0px;
+    padding: 3px;
 }
+
 .subsectioncv{
     flex: 2;
     margin: 0px;
     padding: 0px;
 }
+
+.subsectioncv h3 {
+    margin: 0px;
+    padding: 2px;
+    font-size:1em;
+    color:#404040;
+}
+
 .subsectioncv h4{
     color:#404040;
     padding: 2px;
 }
+
 .subsectioncv p{
     color:#404040;
+    font-size:0.9em;
     padding: 2px;
 }
-.titresubsection{
-    margin: 0px;
-    padding: 4px;
-    font-size:1em;
-    color:#404040;
-}
-.subtitresubsection{
-    padding: 2px;
-    font-size:0.8em;
-    color:#404040;
-}
+
 .subdate {
     padding: 5px;
     font-size:0.9em;
     color:#404040;
 }
-footer{
-    display: flex;
-    flex-direction: row;
 
-}
 .recommandation{
     margin: 0px 10px 0px 20px;
     padding: 5px;
 }
-.recommandation > p {
 
+#recom {
+    flex-direction: row;
+}
+
+#arkadia {
+    width: 50%;
+}
+
+#snef {
+    width: 50%;
 }
 
 #rightsection > h2{
@@ -277,31 +265,28 @@ footer{
     margin: 10px 0px 10px 20px;
     padding: 0px 0px 15px 0px;
 }
-h4{
-    font-weight: normal;
-    margin: 0px 0px 0px 0px;
-    padding: 0px;
-}
-h5{
-    font-weight: bold;
-    margin: 2px 0px 2px 0px;
-    padding: 2px;
-}h6{
-    font-weight: normal;
-    margin: 2px 0px 2px 0px;
-    padding: 2px;
-}
 
+
+/*--------------- Responsive - Media Queries ---------------*/
+
+@media all and (max-width: 875px){
+        
+    #titre{
+        width: 65%;
+        line-height: 100%;
+    }
+    
+    #titre > h1{
+        font-size: 180%;
+        padding: 15% 0 0 5%;
+        font-weight: lighter;
+    }
+}
 
 @media all and (max-width: 800px){
     
-    body {
-        width: 100%;
-    }
-
     header {
         flex-direction: column;
-
     }
 
     #photo {
@@ -362,7 +347,6 @@ h5{
 
     #aboutme {
         padding: 4% 15% 4% 15%;
-        /*padding: 8% 15% 8% 15%;*/
     }
 
     #leftsection h2 {
@@ -376,22 +360,35 @@ h5{
     .contenuloisirs {
         padding-bottom: 3%;
     }
-}
-@media all and (max-width: 500px){
-        
-    /*#rightsection >h2 {
-        text-align: center;
-    }*/
 
-    /*.sectioncv {
-        flex-direction: column;
-        align-items: center;
+    .date h4 {
+        font-size: 1em;
+        margin: 0 5px 5px 5px;
+        padding: 3px;
+    }
+}
+
+@media all and (max-width: 550px){
+    
+    #titrecourt {
+        display: inline;
     }
 
-    .titresubsectioncv {
-        text-align: center;
-    }*/
+    #titrelong {
+        display: none;
+    }
 
+    h5{
+        font-size: 65%;
+    }
+    
+    h6{
+        font-size: 65%;
+    }
+}
+
+@media all and (max-width: 500px){
+        
     h1 {
         font-size: 150%;
     }
@@ -407,13 +404,8 @@ h5{
 
 @media all and (max-width: 450px){
 
-    /*#rightsection {
-        text-align: center;
-    }*/
-
     #rightsection > h2 {
         font-size: 100%;
-        /*text-align: center;*/
     }
 
     .icone {
@@ -440,7 +432,7 @@ h5{
         flex-direction: column;
     }
 
-    .titresubsection {
+    .subsectioncv h3 {
         margin-top: -17px;
         padding-left: 0;
         width: 250px;
@@ -450,10 +442,6 @@ h5{
         margin-top: -17px;
         visibility: hidden;
     }
-
-    /*#rightsection {
-        text-align: center;
-    }*/
 
     #rightsection > h2 {
         width: 100%;
