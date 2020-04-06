@@ -318,6 +318,11 @@ h2 i{
         margin: auto;
     }
 
+    .sectioncv{
+        margin: 0px 1px 10px 1px;
+        padding: 0px 2px 0px 2px;
+    }
+
     #leftsection {
         width: 100%;
     }
