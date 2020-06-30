@@ -711,23 +711,6 @@ header h1 {
   width: 90%;
 }
 
-.chic__submenu {
-  width: 85%;
-  margin-bottom: 2em;
-}
-
-.chic--orange {
-  color: #c67412;
-}
-
-.chic--pink {
-  color: #a46799;
-}
-
-.chic--blue {
-  color: #6e4ccc;
-}
-
 .chic__headline {
   display: -webkit-box;
   display: -ms-flexbox;
